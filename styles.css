@@ -5,7 +5,8 @@
 #content {
   background: #ffeeb8;
   color: #333;
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
   padding: 50px;
   margin: 0 auto;
 }
@@ -16,11 +17,13 @@ h1 {
 p {
   font-size: 22px;
   line-height: 1.5;
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   margin: 25px 0;
 }
-img.logo {
-  width: 600px;
+img {
+  width: 100%;
+  max-width: 600px;
 }
 ul {
   margin-left: 25px;
